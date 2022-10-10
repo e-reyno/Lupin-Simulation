@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="5" region="-1 -9 11" universe="1" />
+  <cell id="2" material="2" region="(-2 -9 12 1) | (-1 12 -11)" universe="1" />
+  <cell id="3" material="6" region="((-3 2 -9 10) | (-2 -12 10)) ~((5 -3 -9 16) | (5 -3 -17 18) | (5 -3 -19 20) | (5 -3 -21 22) | (5 -3 -23 10))" universe="1" />
+  <cell id="4" material="1" region="-4 -13 14 3" universe="1" />
+  <cell id="5" material="3" region="(5 -3 -9 16) | (5 -3 -17 18) | (5 -3 -19 20) | (5 -3 -21 22) | (5 -3 -23 10)" universe="1" />
+  <cell id="6" material="6" region="(-6 -9 10 ~(-4 -13 14 3) 3) | (-15 9 -6)" universe="1" />
+  <cell id="7" material="void" region="(-7 6) | (15 -7) | (-10 -7)" universe="1" />
+  <cell id="8" material="void" region="7 -8" universe="1" />
+  <surface coeffs="0.0 0.0 0.02" id="1" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.021500000000000002" id="2" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.054" id="3" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.0555" id="4" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.0525" id="5" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.125" id="6" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.0 0.5" id="7" type="sphere" />
+  <surface boundary="vacuum" coeffs="0.0 0.0 0.0 0.55" id="8" type="sphere" />
+  <surface coeffs="0.1485" id="9" type="z-plane" />
+  <surface coeffs="-0.1485" id="10" type="z-plane" />
+  <surface coeffs="-0.10149999999999999" id="11" type="z-plane" />
+  <surface coeffs="-0.103" id="12" type="z-plane" />
+  <surface coeffs="0.0705" id="13" type="z-plane" />
+  <surface coeffs="-0.0705" id="14" type="z-plane" />
+  <surface coeffs="0.1495" id="15" type="z-plane" />
+  <surface coeffs="0.09849999999999999" id="16" type="z-plane" />
+  <surface coeffs="0.07424999999999998" id="17" type="z-plane" />
+  <surface coeffs="0.04924999999999998" id="18" type="z-plane" />
+  <surface coeffs="0.02499999999999998" id="19" type="z-plane" />
+  <surface coeffs="-0.025000000000000022" id="20" type="z-plane" />
+  <surface coeffs="-0.04924999999999998" id="21" type="z-plane" />
+  <surface coeffs="-0.07424999999999998" id="22" type="z-plane" />
+  <surface coeffs="-0.09849999999999999" id="23" type="z-plane" />
+</geometry>

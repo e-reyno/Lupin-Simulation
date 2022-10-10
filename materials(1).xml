@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="13" name="lead">
+    <density units="sum" />
+    <nuclide ao="0.014" name="Pb204" />
+    <nuclide ao="0.241" name="Pb206" />
+    <nuclide ao="0.221" name="Pb207" />
+    <nuclide ao="0.524" name="Pb208" />
+  </material>
+  <material id="14" name="aluminium">
+    <density units="sum" />
+    <nuclide ao="1.0" name="Al27" />
+    <sab name="Al27" />
+  </material>
+  <material id="15" name="cadmium">
+    <density units="sum" />
+    <nuclide ao="0.01245" name="Cd106" />
+    <nuclide ao="0.00888" name="Cd108" />
+    <nuclide ao="0.1247" name="Cd110" />
+    <nuclide ao="0.12795" name="Cd111" />
+    <nuclide ao="0.24109" name="Cd112" />
+    <nuclide ao="0.12227" name="Cd113" />
+    <nuclide ao="0.28754" name="Cd114" />
+    <nuclide ao="0.07512" name="Cd116" />
+  </material>
+  <material id="17" name="Boron Fluoride (BF3)">
+    <density units="g/cm3" value="0.002831" />
+    <nuclide ao="0.20045" name="B11" />
+    <nuclide ao="0.04955" name="B10" />
+    <nuclide ao="0.75" name="F19" />
+  </material>
+  <material id="18" name="polyethylene">
+    <density units="g/cm3" value="0.93" />
+    <nuclide ao="0.3333333333333333" name="C0" />
+    <nuclide ao="0.66656284" name="H1" />
+    <nuclide ao="0.00010382666666666666" name="H2" />
+    <sab name="c_H_in_CH2" />
+  </material>
+</materials>
